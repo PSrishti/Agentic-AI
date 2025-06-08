@@ -22,3 +22,12 @@ But if there's a flaw in the plan, it doesn't get to adapt the plan while it's b
 Or do we want it to be fully baked, and the plan executes completely separately from the agent and we lose the ability to respond if there's a mistake between steps? But we may gain things in terms of efficiency, costs, speed.
 To make it better, we can add constraints in the prompt, constraints that we want it to work with, to try to bound what it does and what it reasons about.
 
+Providing Agentic AI information about the world:
+Giving agents tools
+Learning more and staying connected
+Tool descriptions and naming
+Tool results and agent feedback
+In-context learning - example provide inputs in terms of examples
+
+
+
