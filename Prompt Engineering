@@ -21,3 +21,4 @@ It doesn't always have to go one task at a time.
 But if there's a flaw in the plan, it doesn't get to adapt the plan while it's being executed, and that's a key difference. Do we want it in the loop while the plan is executing in between every step, getting to decide what happens next? 
 Or do we want it to be fully baked, and the plan executes completely separately from the agent and we lose the ability to respond if there's a mistake between steps? But we may gain things in terms of efficiency, costs, speed.
 To make it better, we can add constraints in the prompt, constraints that we want it to work with, to try to bound what it does and what it reasons about.
+
