@@ -1,0 +1,23 @@
+Definition - AI that can make decisions and take actions autonomously to achieve specific goals, without needing constant human input.
+Autonomous Action: Agentic AI systems don't require constant human prompts; they can analyze situations, develop strategies, and execute tasks independently.
+Goal-Oriented: They are designed to pursue specific objectives and can adapt their actions based on progress towards those goals.
+Adaptability: Agentic AI can learn from past interactions and adjust their behavior to better achieve desired outcomes in dynamic environments.
+Not just automation: While Agentic AI can automate tasks, it goes beyond simple automation by incorporating decision-making, reasoning, and problem-solving capabilities.
+Examples: Agentic AI can be found in various applications, including customer service chatbots that handle inquiries autonomously, recommendation systems that personalize content based on user preferences, and even systems that manage supply chains or execute financial transactions. 
+
+Flipped Interaction Pattern:
+Rather than us telling the system what to do, rather than us asking it questions, it goes and tells us what to do, it asks us questions, or really it goes and ask existing computer systems questions. 
+It runs queries and databases to collect information it needs, or it goes and tells those systems to run actions that it needs run in order to accomplish some goal that we give it. 
+
+Multimodal Flipped Interaction:
+These systems can interpret so many different types of information. It doesn't just have to be human language. And this is a key thing that we have to understand is we can go give it all kinds of information. 
+So when we use the flipped interaction pattern where we have it go and ask us questions or ask the database questions or tell us what to do, or tell the computer system what to do. 
+It doesn't have to just get feedback in terms of language. It doesn't just have to be our human language. It can use all kinds of modalities of communication
+Eg. Using AI agent to troubleshoot a system issue. It takes in user inputs in text, as well as asks for screenshots of the desktop screen.
+
+Planning:
+Agentic AI has the ability to take a goal that you're trying to achieve, some high level task, and decompose it into a series of subtasks or goals in order to form a plan to accomplish it. 
+It doesn't always have to go one task at a time.
+But if there's a flaw in the plan, it doesn't get to adapt the plan while it's being executed, and that's a key difference. Do we want it in the loop while the plan is executing in between every step, getting to decide what happens next? 
+Or do we want it to be fully baked, and the plan executes completely separately from the agent and we lose the ability to respond if there's a mistake between steps? But we may gain things in terms of efficiency, costs, speed.
+To make it better, we can add constraints in the prompt, constraints that we want it to work with, to try to bound what it does and what it reasons about.
