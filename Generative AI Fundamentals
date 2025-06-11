@@ -1,1 +1,22 @@
+Artificial Intelligence - Simulation of human intelligence by machines
+
+Discriminative AI vs Generative AI
+
+Discriminative AI is an approach that learns to distinguish between different classes of data. A discriminative AI model is given a set of training data, where each data point is labeled with its class. 
+The model then predicts the class of a new data point by finding the side of the decision boundary that the data point falls on. Discriminative AI models use advanced algorithms to differentiate, classify, identify patterns and draw conclusions based on training data.
+
+Generative AI models learn to generate new content based on the training data. They can capture the underlining distribution of the training data and generate novel data instances. Generative AI starts with a prompt. 
+This can be text, an image, video or any other input that the model can process. As an output, the model generates new content including text, images, audio, video, code and data. Generative AI can produce output in the same form in which the prompt is provided.
+
+Gen AI models - GANs - Generative Adversarial Networks, VAEs - Variational Autoencoders, Transformer models (eg. GPT) and Diffusion model, Autoregressive models.
+Gen AI tools - Chat GPT and Gemini for text generation, DALL-E2 and Midjourney for image generation, Synthesia for video generation, Copilot and AlphaCode for code generation.
+Audio generation : WaveGAN - Raw audio waveforms, realistic sounds, speech, music, environmental noises ; OpenAI's MuseNet - Original music in various genres and instrumentations, classical compositions to pop songs;
+Google's Tachotron 2 and Mozilla TTS - Advanced TTS
+
+#Metaverse platform with Gen AI capabilities
+
+
+
+
+
 
