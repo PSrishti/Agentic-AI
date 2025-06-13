@@ -29,5 +29,34 @@ Tool descriptions and naming
 Tool results and agent feedback
 In-context learning - example provide inputs in terms of examples
 
+################################################################ RAG and LangChain ######################################################################################################################
+RAG - Retrieval Augmented Generation
+RAG is an AI framework that helps optimize the output of large language models or LLMs. RAG uses the capabilities of LLMs and specific domains or the internal database of an organization without retraining the model.
+Pre-trained LLMs may face challenges with specific domain knowledge that they are not trained in. While they perform well on general tasks, they may provide inaccurate responses to specialized queries. 
+Therefore, adding external relevant knowledge sources helps ensure more accurate responses.
+RAG has two main components - Retriever which is the core of RAG and Generator which functions as a chatbot
+In the RAG process, the first step is text embedding. The inserted prompt or question is converted into a high dimensional vector using a question encoder. Knowledge based documents are separately converted into high 
+dimensional vectors and embedded using a context encoder. The next step is retrieval, where the system matches the similar vectors in the inserted prompt or content with the vectors in the knowledge base to retrieve 
+information. However, in the augmented query creation, the system creates an augmented query by combining the text associated with the retrieve vectors and the original prompt or content. Lastly, in the model 
+generation step, the language model uses the created augmented query to generate a response using the content from the knowledge base. The encoders convert the prompt and knowledge base into embeddings that represent 
+the information. Then the context and question embeddings can be generated from the same encoder.
+
+
+Prompt -> Question Encoder -> Text Embeddings ->
+                                                  Retrieve -> Relevant context + Prompt -> Generator -> Response
+Documents  ->  Context Encoder  ->  VectorDB  -> 
+
+
+Langchain is an open source interface that simplifies application development process through LLM. 
+Components of Langchain: Documents, Chains, Agents, Language Model, Chat Model, Chat message, Prompt Templates, Output Parsers.
+Langchain uses IBM, OpenAI, Google and meta as primary language model. 
+
+Types of prompt templates in Langchain:
+String Prompt Template
+Chat Prompt Template
+Message Prompt Template - AI, System, Human, Chat
+Messages PlaceHolder
+Fewshot Prompt Template
+
 
 
