@@ -47,6 +47,7 @@ Prompt -> Question Encoder -> Text Embeddings ->
 Documents  ->  Context Encoder  ->  VectorDB  -> 
 
 
+
 Langchain is an open source interface that simplifies application development process through LLM. 
 Components of Langchain: Documents, Chains, Agents, Language Model, Chat Model, Chat message, Prompt Templates, Output Parsers.
 Langchain uses IBM, OpenAI, Google and meta as primary language model. 
