@@ -61,3 +61,23 @@ Fewshot Prompt Template
 
 
 
+Key challenges in scaling ML workloads:
+Handling large datasets - Parallel processing
+Model complexity - optimize model training
+Latency and Throughput - leverage cloud infra
+Resource Allocation - Streamline data pipeline, Implement auto scaling
+Data Consistency - 
+Cost Management
+
+Prediction Caching - storing the previous ML model predictions to avoid redundant calculations
+Load balancing for scaling ML systems - 
+
+Metrics
+BLEU: Measures text generation quality using n-gram overlap.
+
+ROUGE: Measures recall-oriented overlap in summarization tasks.
+
+Faithfulness: How accurately the output reflects source data.
+
+Factuality: Whether the output is factually correct.
+
