@@ -4,3 +4,11 @@ Within Regions, you have Availability Zones, and you're going to see it abbrevia
 The next thing is an Edge Location, these are data centers and other telecommunication providers that have their own data centers to help you deliver services with extremely low latency. These are going to allow you to deploy much closer to your end users compared to using Regions and the AZs within them, they leverage what are called Points of Presence in Regional edge caches.
 ########################### Responsibility in AWS: The Shared Responsibility Model #######################
 <img width="710" height="376" alt="image" src="https://github.com/user-attachments/assets/cd14b44e-8723-4738-8ce2-179e8a857a64" />
+################################## AWS well-architected Framework ########################################
+Set of principles you should aim to apply to all AWS based workloads : -
+Operational Excellence - The ability to >Support development >Run workloads effectively >Gain insights into operations >Continuously improving supporting processes and procedures to deliver business value. Eg. Operations as code, small and frequent changes, using managed services.
+Security - 
+Cost Optimization
+Reliabity
+Performance Efficiency
+Sustainability
