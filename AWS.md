@@ -14,3 +14,13 @@ Performance Efficiency - Remove bottlenecks, reduce waste. Ability to >Use corre
 Sustainability - Minimize environmental impacts from workloads. The ability to continually improve sustainability impacts by >Reducing energy consumption  >Increasing efficiency across all components of a workload  >Maximizing the benefits from the provisioned resources  >Minimizing the total resources required. Eg. Understand your impact, maximize utilization, using managed services.
 
 
+############################################# Core Services ##########################################
+AWS IAM - Identity and Access Management
+This service provides a unique authentication database that is logically isolated to one AWS account. It provides service to >Create users and grant permissions to those users  >Create groups and roles  >Control access to AWS resources and services. TL;DR - It allowsus to manage users and control their level of access to your AWS account.
+For root user accounts (email address used to sign up for AWS), Immediately turn on MFA, Avoid using it for normal tasks, Do not create access keys.
+
+IAM Users and Groups
+IAM Users - Entity within IAM meant to represent a human or a dedicated service account
+IAM Groups - A collection of IAM users to simplify permission management. Users can belong to multiple IAM groups at a time. No nesting groups.
+Long-term credentials - IAM users authenticate via Username and password, or by using static IAM access keys.
+
