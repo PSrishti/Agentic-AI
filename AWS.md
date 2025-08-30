@@ -24,3 +24,15 @@ IAM Users - Entity within IAM meant to represent a human or a dedicated service 
 IAM Groups - A collection of IAM users to simplify permission management. Users can belong to multiple IAM groups at a time. No nesting groups.
 Long-term credentials - IAM users authenticate via Username and password, or by using static IAM access keys.
 
+IAM Policies
+Policy types-
+--Identity-based : >Attached to IAM identities to grant permissions  >Written and stored as JSON documents  >By default, permissions are implicitly denied  >Two forms - Mangaed and Inline
+Managed policies : Attachable standalone policies that are reusable. We get a resource ARN after creation. Two types of managed policies - 
+   -AWS managed policies:Created and managed by AWS, usable by everyone, no ARN
+   -Customer managed policies:You create, manage and reuse however you want.
+Inline policies : Added directly to a single IAM identity for specific use cases. One-to-one relationship between policy and user(not reusable). Deleting the IAM identity results in deletion of the inline policy as well.
+--Resource-based : JSON policy documents that get attached to AWS resources. Eg. bucket-policy, KMS key-policy. It grant permissions to a specified IAM principal for the resource. All resource-based policies are considered inline policies. It also grant cross-account access by specifying another account as the principal.
+--Permissions boundaries
+--Organization Service Control Policies
+--Access Control Lists
+--Session Policies
