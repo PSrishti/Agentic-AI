@@ -7,8 +7,10 @@ The next thing is an Edge Location, these are data centers and other telecommuni
 ################################## AWS well-architected Framework ########################################
 Set of principles you should aim to apply to all AWS based workloads : -
 Operational Excellence - The ability to >Support development >Run workloads effectively >Gain insights into operations >Continuously improving supporting processes and procedures to deliver business value. Eg. Operations as code, small and frequent changes, using managed services.
-Security - 
-Cost Optimization
-Reliabity
-Performance Efficiency
-Sustainability
+Security - Taking advantage of cloud technologies to protect Data, Systems and Assets. Ef. maintaininhg traceability, applying security in layers, encrypting data in transit and at rest, keeping people away from data.
+Cost Optimization - The ability to >Run systems that deliver business value  >Operate at the lowest price point. Eg. Adopting a consumption model, measuring overall efficiency, letting AWS handle heavy lifting of infrastructure.
+Reliabity - The ability for the workload to  >Peform correctly and consistently. >Be easily tested. Eg. Automating recoveries from failure, testing recovery procedures, scaling horizontally.
+Performance Efficiency - Remove bottlenecks, reduce waste. Ability to >Use correct computing resources. >Maintain efficiency with scaling demands. Eg. Using serverless architectures, deploying globally using AWS Regions, experimenting often.
+Sustainability - Minimize environmental impacts from workloads. The ability to continually improve sustainability impacts by >Reducing energy consumption  >Increasing efficiency across all components of a workload  >Maximizing the benefits from the provisioned resources  >Minimizing the total resources required. Eg. Understand your impact, maximize utilization, using managed services.
+
+
